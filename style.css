@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    background: #000000;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background: #b6b4b4;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.displayScreen {
+    background-color: #6da75a;
+    font-size: 40px;
+    font-family: Segment 7 Standard;
+    text-align: end;
+    color: #162710;
+    width: 224px;
+    padding: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    width: 232px;
+    flex-wrap: wrap;
+}
+
+button {
+    background: rgb(148, 147, 147);
+    font-size: 27px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+button:hover {
+    background: rgb(92, 92, 92);
+}
+
+button:active {
+    background: rgb(155, 154, 154);
+}
+
+#equalsTo {
+    background: rgb(102, 102, 102);
+}
+
+#equalsTo:hover {
+    background: rgb(71, 71, 71);
+}
+
+#equalsTo:active{
+    background: rgb(155, 154, 154);
+}
+
+#clearAll {
+    background: rgb(102, 102, 102);
+}
+
+#clearAll:hover {
+    background: rgb(71, 71, 71);
+}
+
+#clearAll:active {
+    background: rgb(155, 154, 154);
+}
